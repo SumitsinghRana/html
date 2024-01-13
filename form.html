@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Google internship form</h2>
+    <img src="https://cdn4.vectorstock.com/i/1000x1000/94/33/autumn-welcome-sign-with-colorful-maple-leaves-vector-21849433.jpg " width="80" height="60">
+    <form action="panda.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="text" name="myname" id="Name">
+        </div>
+        <br>
+        <div>
+            Course:<input type="text" name="mycource">
+            Branch:<input type="text" name="mybranch">
+        </div>
+        <br>
+        <label for="id">ID</label>
+        <div>
+            <input type="number" name="myid" id="id">
+        </div>
+        <br>
+        <div>
+            DOB:<input type="date" name="dob">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender"> Other<input type="radio" name="mygender">
+        </div>
+        <p><strong>Terms and condition are kept secret</strong></p>
+        <div>
+            I accept all terms and condition<input type="checkbox" name="check">
+        </div>
+        <br>
+        <div>
+            Small intro about yourself: <br><textarea name="intro" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            What comes first to earth!:<select name="myegg">
+                <option value="egg">Egg</option>
+                <option value="chicken" selected>Chicken</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+    
+</body>
+</html>
